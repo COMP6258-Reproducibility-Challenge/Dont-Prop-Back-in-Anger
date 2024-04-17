@@ -41,8 +41,9 @@ if __name__ == '__main__':
     # test_transform = get_transform_cub(target_resolution=resolution, train=False, augment_data=False)
 
     # Files and directories
-    originalDir = os.path.join("datasets", "original95")
-    fgOnlyDir = os.path.join("datasets", "fgOnly")
+    datasets_root = "..\\..\\data\\sec4_datasets"
+    originalDir = os.path.join(datasets_root, "original95")
+    fgOnlyDir = os.path.join(datasets_root, "fgOnly")
     dateTime = datetime.now().strftime("_%Y-%m-%d_%H%M%S")
     output_file = os.path.join("results", "OUTPUT" + dateTime + ".txt")
     os.makedirs("results", exist_ok=True)
