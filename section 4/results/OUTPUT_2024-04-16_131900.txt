@@ -1,0 +1,92 @@
+THIS FILE WAS GENERATED USING APPROACH FROM THEIR CODE
+
+Epochs: 50, Momentum: 0.900000, Learning Rate: 0.001000, Batch Size: 32, Weight Decay: 0.010000, Loss Function: CrossEntropyLoss(), Resolution: (224, 224), Zero Division: 0
+
+-----------------------------------------------------
+
+Training dataset: original95
+
+On original test data:
+              precision    recall  f1-score   support
+
+           0       0.86      0.98      0.92      3979
+           1       0.93      0.66      0.77      1815
+
+    accuracy                           0.88      5794
+   macro avg       0.89      0.82      0.84      5794
+weighted avg       0.88      0.88      0.87      5794
+
+Their results report (original): {'accuracy_0_0': 0.9671840354767184, 'accuracy_0_1': 0.7556541019955654, 'accuracy_1_0': 0.8800623052959502, 'accuracy_1_1': 0.9735202492211839, 'mean_accuracy': 0.8759061097687263, 'worst_accuracy': 0.7556541019955654}
+
+On FG only test data:
+              precision    recall  f1-score   support
+
+           0       0.86      0.98      0.92      3979
+           1       0.93      0.66      0.77      1815
+
+    accuracy                           0.88      5794
+   macro avg       0.89      0.82      0.84      5794
+weighted avg       0.88      0.88      0.87      5794
+
+
+Their results report (FG only): {'accuracy_0_0': 0.9467849223946785, 'accuracy_0_1': 0.9485587583148559, 'accuracy_1_0': 0.9595015576323987, 'accuracy_1_1': 0.940809968847352, 'mean_accuracy': 0.9482222989299275, 'worst_accuracy': 0.940809968847352}
+
+-----------------------------------------------------
+
+Training dataset: original100
+
+On original test data:
+              precision    recall  f1-score   support
+
+           0       0.66      0.89      0.76      3340
+           1       0.71      0.37      0.49      2454
+
+    accuracy                           0.67      5794
+   macro avg       0.69      0.63      0.62      5794
+weighted avg       0.68      0.67      0.64      5794
+
+Their results report (original): {'accuracy_0_0': 0.9960088691796009, 'accuracy_0_1': 0.32195121951219513, 'accuracy_1_0': 0.4470404984423676, 'accuracy_1_1': 0.9797507788161994, 'mean_accuracy': 0.6710390058681395, 'worst_accuracy': 0.32195121951219513}
+
+On FG only test data:
+              precision    recall  f1-score   support
+
+           0       0.66      0.89      0.76      3340
+           1       0.71      0.37      0.49      2454
+
+    accuracy                           0.67      5794
+   macro avg       0.69      0.63      0.62      5794
+weighted avg       0.68      0.67      0.64      5794
+
+
+Their results report (FG only): {'accuracy_0_0': 0.9436807095343681, 'accuracy_0_1': 0.9441241685144124, 'accuracy_1_0': 0.9485981308411215, 'accuracy_1_1': 0.9361370716510904, 'mean_accuracy': 0.943562305833621, 'worst_accuracy': 0.9361370716510904}
+
+-----------------------------------------------------
+
+Training dataset: fgOnly
+
+On original test data:
+              precision    recall  f1-score   support
+
+           0       0.86      0.96      0.91      4037
+           1       0.87      0.64      0.74      1757
+
+    accuracy                           0.86      5794
+   macro avg       0.87      0.80      0.82      5794
+weighted avg       0.86      0.86      0.86      5794
+
+Their results report (original): {'accuracy_0_0': 0.8869179600886918, 'accuracy_0_1': 0.8319290465631929, 'accuracy_1_0': 0.8504672897196262, 'accuracy_1_1': 0.8987538940809969, 'mean_accuracy': 0.8627890921643079, 'worst_accuracy': 0.8319290465631929}
+
+On FG only test data:
+              precision    recall  f1-score   support
+
+           0       0.86      0.96      0.91      4037
+           1       0.87      0.64      0.74      1757
+
+    accuracy                           0.86      5794
+   macro avg       0.87      0.80      0.82      5794
+weighted avg       0.86      0.86      0.86      5794
+
+
+Their results report (FG only): {'accuracy_0_0': 0.9915742793791574, 'accuracy_0_1': 0.9973392461197339, 'accuracy_1_0': 0.9190031152647975, 'accuracy_1_1': 0.9174454828660437, 'mean_accuracy': 0.9775629962029686, 'worst_accuracy': 0.9174454828660437}
+
+-----------------------------------------------------
